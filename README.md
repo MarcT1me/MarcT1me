@@ -4,7 +4,7 @@
 
 - **[🎮 Game Development](game-dev/README.md)**  
   Кастомный движок • Гравитационная симуляция • PyGame проекты
-- **[💻 Backand Developer](backand/README.md)**  
+- **[💻 Backend Developer](backend/README.md)**  
   FastAPI • Docker • OAuth2 аутентификация
 - **[🛠 Навыки](#-навыки)**
 - **[🎓 Образование](#-образование)**
