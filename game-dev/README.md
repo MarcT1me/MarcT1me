@@ -7,8 +7,8 @@
 ![Статус](https://img.shields.io/badge/Active_development-0.16.2-blueviolet)
 ![Статус](https://img.shields.io/badge/Pre_Release-0.15.5-orange)
 ![DirectX](https://img.shields.io/badge/DirectX-12-blue)
-![DirectX](https://img.shields.io/badge/.NET-9.0-blue)
-![DirectX](https://img.shields.io/badge/C++-std20-blue)
+![DotNET](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet&logoColor=white)
+![Cpp](https://img.shields.io/badge/C++-std20-00599C?logo=cplusplus&logoColor=white)
 
 - Загрузчик ресурсов (из файловой системы)
 - _Мультиоконная_ архитектура
@@ -40,11 +40,11 @@ graph LR
 
 ---
 
-## Гравитационная симуляция (Java/LibGDX)
+## 💫 Гравитационная симуляция (Java/LibGDX)
 
 ![Статус](https://img.shields.io/badge/Release-0.12.3-green)
-![Java](https://img.shields.io/badge/Java-21-orange)
-![Java](https://img.shields.io/badge/LibGDX-21-red)
+![Java](https://img.shields.io/badge/Java-21-ED8B00?logo=coffeescript&logoColor=white)
+![LibGDX](https://img.shields.io/badge/LibGDX-0.13.1-red?logo=coffeescript&logoColor=white)
 
 - Многопоточные физические расчеты большого кол-ва тел
 - Динамическая визуализация траекторий
@@ -56,5 +56,44 @@ graph LR
 
 ## Мини проекты на PyGame
 
-![PyGame](https://img.shields.io/badge/Python-3.12.9-265176)
-![PyGame](https://img.shields.io/badge/PyGame-2.6.1-AAEEBB)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![PyGame](https://img.shields.io/badge/PyGame-2.6.1-AAEEBB?logo=python&logoColor=white)
+
+### 🔫 ShooterGame
+
+Простейшая игра - шутер
+
+GitHub: [исходный код](https://github.com/MarcT1me/ShooterGameV2)
+
+### 🏓 Pong game
+
+Простая Pong game
+
+```requirements
+# requirements.txt
+pygame
+pyglm
+```
+
+#### управление
+
+`W/S` - левая ракетка
+`Up/Down` - правая ракетка
+
+### ⭐ SpaceStars
+
+Симуляция 3д через движение звёзд "в камеру"
+
+```requirements
+# requirements.txt
+pygame
+```
+
+#### управление
+
+J - "прыжок" (смена конфигурации симуляции с 1 на 2)
+
+#### конфиги
+
+`settings.json` - настройки окна, размеры, FPS и Alpha, влияющую на длину шлейфа от звезды
+`params.json` - настройка симуляции, размеры звёзд, таблицы выбора цветов, количество звёзд и их зоны спавна
