@@ -1,4 +1,4 @@
-# 💻 Backand Developer Portfolio
+# 💻 Backend Developer Portfolio
 
 [Вернуться к главному портфолио](../README.md)
 
