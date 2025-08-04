@@ -1,0 +1,28 @@
+[
+  {
+    "VEL_MIN": 0.001,
+    "VEL_MAX": 0.01,
+    "COLORS": [
+      {"chance": 0.9, "color": "blue"},
+      {"chance": 0.8, "color": "white"},
+      {"chance": 0.5, "color": "yellow"},
+      {"chance": 0.2, "color": "orange"},
+      {"chance": 0.0, "color": "red"}
+    ],
+    "MAX_RANGE": 35,
+    "DISTANCE_Z": 50,
+    "STARS_COUNT": 3000
+  },
+  {
+    "VEL_MIN": 0.0005,
+    "VEL_MAX": 0.005,
+    "COLORS": [
+      {"chance": 0.9, "color": "blue"},
+      {"chance": 0.4, "color": "cyan"},
+      {"chance": 0.0, "color": "red"}
+    ],
+    "MAX_RANGE": 35,
+    "DISTANCE_Z": 20,
+    "STARS_COUNT": 1000
+  }
+]
