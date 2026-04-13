@@ -2,9 +2,26 @@
 
 [Вернуться к главному портфолио](../README.md)
 
+## 🔧 StellarEngine (C++/C#)
+![Статус](https://img.shields.io/badge/Active_development-0.5.0-blueviolet)
+![DotNET](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet&logoColor=white)
+![Cpp](https://img.shields.io/badge/C++-std20-00599C?logo=cplusplus&logoColor=white)
+
+Основной репозиторий 3D движка над которым ведётся вся работа (остальные R&D скрыты)
+
+- Гипермодульная архитектура
+- Полная изоляция модулей друг от друга
+- Кастомные системы обработки ошибок и многопоточности
+- Масштабируимость и переиспользуемость модулей
+- .NET SDK wrapper
+- Окончательное определение Core Concept и Project Vision
+
+**GutHub**:
+[исходный код](https://github.com/QuantumDevTeam/StellarEngine)
+
 ## 🔧 Игровой движок (C++/C#)
 
-![Статус](https://img.shields.io/badge/Active_development-0.16.2-blueviolet)
+![Статус](https://img.shields.io/badge/droped-0.23.0-red)
 ![Статус](https://img.shields.io/badge/Pre_Release-0.15.5-orange)
 ![DirectX](https://img.shields.io/badge/DirectX-12-blue)
 ![DotNET](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet&logoColor=white)
